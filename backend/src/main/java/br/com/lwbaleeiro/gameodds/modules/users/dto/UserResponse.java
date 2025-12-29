@@ -1,4 +1,4 @@
-package br.com.lwbaleeiro.gameodds.modules.users;
+package br.com.lwbaleeiro.gameodds.modules.users.dto;
 
 import java.util.UUID;
 
