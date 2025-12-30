@@ -3,8 +3,7 @@ package br.com.lwbaleeiro.gameodds.modules.wallet;
 import java.math.BigDecimal;
 import java.util.UUID;
 
-import org.apache.catalina.User;
-
+import br.com.lwbaleeiro.gameodds.modules.users.UserEntity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -13,6 +12,7 @@ import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import jakarta.persistence.Version;
@@ -29,9 +29,9 @@ public class Wallet {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @Column(nullable = false)
     @OneToOne(fetch = FetchType.LAZY)
-    private User user;
+    @JoinColumn(name = "user_id", nullable = false)
+    private UserEntity user;
 
     @Column(nullable = false)
     private BigDecimal balance;

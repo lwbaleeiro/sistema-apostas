@@ -13,6 +13,10 @@ A arquitetura utiliza comunicação assíncrona e é dividida em serviços indep
 *   **Messaging**: Apache Kafka, RabbitMQ
 *   **Frontend**: React/Vue.js, React Native/Flutter
 
+## Documentação
+
+Você poderá acessar o Swagger em http://localhost:8080/swagger-ui.html
+
 ## Estrutura do Projeto
 
 *   `/backend`: Código fonte dos microserviços em Java.
