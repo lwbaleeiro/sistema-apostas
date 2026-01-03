@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.lwbaleeiro.gameodds.modules.users.UserEntity;
 import br.com.lwbaleeiro.gameodds.modules.users.dto.AuthRequest;
 import br.com.lwbaleeiro.gameodds.modules.users.dto.AuthResponse;
-import br.com.lwbaleeiro.gameodds.security.TokenService;
+import br.com.lwbaleeiro.gameodds.modules.security.TokenService;
 import jakarta.validation.Valid;
 
 @RestController

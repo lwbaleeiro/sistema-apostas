@@ -1,4 +1,4 @@
-package br.com.lwbaleeiro.gameodds.security;
+package br.com.lwbaleeiro.gameodds.modules.security;
 
 import java.time.Instant;
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package br.com.lwbaleeiro.gameodds.security;
+package br.com.lwbaleeiro.gameodds.modules.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

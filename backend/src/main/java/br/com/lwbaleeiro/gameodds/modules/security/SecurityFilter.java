@@ -1,5 +1,5 @@
 
-package br.com.lwbaleeiro.gameodds.security;
+package br.com.lwbaleeiro.gameodds.modules.security;
 
 import java.io.IOException;
 import java.util.Collections;
